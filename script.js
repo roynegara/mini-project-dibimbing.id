@@ -1,8 +1,7 @@
 function toggleMenu() {
     var navList = document.querySelector('.nav-list');
-    navList.classList.toggle('show');
+  navList.classList.toggle('show'); 
 }
-
 
 const navbar = document.getElementById('navbar');
 window.addEventListener('scroll', () => {
