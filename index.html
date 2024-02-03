@@ -9,9 +9,7 @@
     <link
       rel="stylesheet"
       href="https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700;800;900&display=swap" />
-
     <link rel="stylesheet" href="style.css" />
-
     <link
       href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css"
       rel="stylesheet"
@@ -60,71 +58,81 @@
     </header>
     <!-- Navbar End -->
 
-    <!-- Carousel Start -->
-    <div id="carouselExampleDark" class="carousel carousel-light slide">
-      <div class="carousel-indicators">
+    <main>
+      <!-- Carousel Start -->
+      <div id="carouselExampleDark" class="carousel carousel-light slide">
+        <div class="carousel-indicators">
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="0"
+            class="active"
+            aria-current="true"
+            aria-label="Slide 1"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="1"
+            aria-label="Slide 2"></button>
+          <button
+            type="button"
+            data-bs-target="#carouselExampleDark"
+            data-bs-slide-to="2"
+            aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+          <div class="carousel-item active" data-bs-interval="10000">
+            <img
+              src="assets/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table.jpg"
+              class="d-block w-100 img-fit wh"
+              alt="..." />
+            <div class="carousel-overlay">
+              <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
+              <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
+            </div>
+            <!-- <div class="carousel-caption d-md-block"></div> -->
+          </div>
+          <div class="carousel-item" data-bs-interval="2000">
+            <img src="assets/high-angle-table-full-delicious-food-arrangement.jpg" class="d-block w-100" alt="..." />
+            <div class="carousel-overlay">
+              <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
+              <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
+            </div>
+          </div>
+          <div class="carousel-item">
+            <img
+              src="assets/pork-green-curry-white-bowl-with-spices-black-cement-background.jpg"
+              class="d-block w-100"
+              alt="..." />
+            <div class="carousel-overlay">
+              <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
+              <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
+            </div>
+          </div>
+        </div>
         <button
+          class="carousel-control-prev button-previous"
           type="button"
           data-bs-target="#carouselExampleDark"
-          data-bs-slide-to="0"
-          class="active"
-          aria-current="true"
-          aria-label="Slide 1"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
-        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+          data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button
+          class="carousel-control-next button-next"
+          type="button"
+          data-bs-target="#carouselExampleDark"
+          data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
       </div>
-      <div class="carousel-inner">
-        <div class="carousel-item active" data-bs-interval="10000">
-          <img
-            src="assets/delicious-vietnamese-food-including-pho-ga-noodles-spring-rolls-white-table.jpg"
-            class="d-block w-100 img-fit wh"
-            alt="..." />
-          <div class="carousel-overlay">
-            <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
-            <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
-          </div>
-          <!-- <div class="carousel-caption d-md-block"></div> -->
-        </div>
-        <div class="carousel-item" data-bs-interval="2000">
-          <img src="assets/high-angle-table-full-delicious-food-arrangement.jpg" class="d-block w-100" alt="..." />
-          <div class="carousel-overlay">
-            <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
-            <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
-          </div>
-        </div>
-        <div class="carousel-item">
-          <img
-            src="assets/pork-green-curry-white-bowl-with-spices-black-cement-background.jpg"
-            class="d-block w-100"
-            alt="..." />
-          <div class="carousel-overlay">
-            <div class="carousel-text-main">Restoran ne<span style="color: green">ga</span>ra</div>
-            <div class="carousel-text-sekunder">Menyajikan berbagai menu makanan jawa padang sunda</div>
-          </div>
-        </div>
-      </div>
-      <button
-        class="carousel-control-prev button-previous"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="prev">
-        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Previous</span>
-      </button>
-      <button
-        class="carousel-control-next button-next"
-        type="button"
-        data-bs-target="#carouselExampleDark"
-        data-bs-slide="next">
-        <span class="carousel-control-next-icon" aria-hidden="true"></span>
-        <span class="visually-hidden">Next</span>
-      </button>
-    </div>
-    <!-- Carousel End -->
+      <!-- Carousel End -->
+    </main>
 
     <!-- Content Start -->
     <content>
-      <!-- Content Selamat Datang di Restoran negara Start -->
+      <!-- Tentang Start -->
       <h1 id="tentang" class="mt-5 mb-5 text-center welcome-h1" data-aos="fade-up">
         Selamat Datang di Restoran ne<span style="color: green">ga</span>ra
       </h1>
@@ -154,7 +162,7 @@
           </div>
         </div>
       </div>
-      <!-- Content Selamat Datang di Restoran negara End -->
+      <!-- Tentang End -->
 
       <!-- Servis Pemesanan Start -->
       <h1 id="servis" class="mt-5 text-center servis-txt" data-aos="fade-up">Servis Pemesanan</h1>
@@ -231,17 +239,17 @@
           referrerpolicy="no-referrer-when-downgrade"
           data-aos="fade-up"></iframe>
       </div>
-
       <!-- Lokasi restoran End -->
 
       <!-- Menu Restoran Start -->
       <div id="menu" class="menu-head">
-        <h1 class="mt-5 text-center" data-aos="fade-up">Menu</h1>
+        <h1 class="text-center" data-aos="fade-up">Menu</h1>
         <!-- <hr class="my-4 container" style="color: green; border-width: 3px" data-aos="fade-up" /> -->
         <h3 class="text-center" data-aos="fade-up">Restoran ne<span style="color: green">ga</span>ra</h3>
       </div>
       <div class="container">
         <div class="row" data-aos="fade-up">
+          <!-- baris 1 -->
           <div class="col-md-4 menu-item">
             <img class="" src="assets/freepik-close-up-high-protein-soup-meal_23-2149098847.avif" alt="Gambar 1" />
             <div class="menu-harga">Rp 15.000</div>
@@ -275,7 +283,7 @@
             </div>
           </div>
         </div>
-
+        <!-- baris 2 -->
         <div class="row" data-aos="fade-up">
           <div class="col-md-4 menu-item">
             <img
@@ -310,7 +318,7 @@
             </div>
           </div>
         </div>
-
+        <!-- baris 3 -->
         <div class="row" data-aos="fade-up">
           <div class="col-md-4 menu-item">
             <img
@@ -353,11 +361,9 @@
 
       <!-- Cabang Restoran Start -->
       <div id="cabang" class="cabang-head">
-        <h1 class="mt-5 text-center" data-aos="fade-up">Cabang</h1>
+        <h1 class="text-center" data-aos="fade-up">Cabang</h1>
         <h3 class="text-center" data-aos="fade-up">Restoran ne<span style="color: green">ga</span>ra</h3>
       </div>
-
-      <!-- Cabang Restoran End -->
 
       <!-- Cabang Restoran CG Start -->
       <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
@@ -397,16 +403,16 @@
           <img src="assets/gamping-mhd-vvn-oT_QR1hmb4k-unsplash.jpg" alt="Gamping" /><span>Cabang Gamping</span>
         </div>
       </div>
-
+      <!-- script untuk card  cabang restoran -->
       <script type="text/javascript" src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
       <script
         type="text/javascript"
         src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-      <!-- Cabang Restoran CG Start -->
+      <!-- Cabang Restoran End -->
     </content>
     <!-- Content End -->
-    <!-- Footer Start -->
 
+    <!-- Footer Start -->
     <footer class="text-light pt-5" style="background-color: #000">
       <div class="container">
         <div class="row">
@@ -490,9 +496,9 @@
         <p class="text-center mt-2">All rights reserved | &copy; 2024 by ne<span style="color: green">ga</span>ra</p>
       </div>
     </footer>
+    <!-- Footer End -->
 
-    <!-- ==========Modal Start==================== -->
-
+    <!-- ========== Modal Start ========== -->
     <!-- Modal -->
     <div class="modal fade" id="exampleModal">
       <div class="modal-dialog">
@@ -511,9 +517,9 @@
         </div>
       </div>
     </div>
+    <!-- ========== Modal End ========== -->
 
-    <!-- ==========Modal End==================== -->
-
+    <!-- script AOS -->
     <script src="script.js"></script>
     <script
       src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"
