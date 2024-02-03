@@ -283,6 +283,7 @@ nav {
 
 .maps {
   margin-top: 25px;
+  margin-bottom: 30px;
   text-shadow: 4px 5px 5px rgba(0, 0, 0, 0.3);
   background-color: rgba(0, 0, 0, 0.07);
   border-radius: 8px;
@@ -302,6 +303,10 @@ nav {
 
 .menu-head h3 {
   color: #6f6f6f;
+}
+
+.menu-body {
+  margin-bottom: 30px;
 }
 
 .menu-item {
@@ -514,6 +519,7 @@ footer {
 /* ========== Modal End ========== */
 
 /* ========== Media ========== */
+
 @media only screen and (max-width: 1123px) {
   .carousel-text-main {
     font-size: 170px;
@@ -529,6 +535,15 @@ footer {
     text-align: center;
     text-shadow: 8px 2px 15px rgba(0, 0, 0, 0.4);
     margin-top: 25px;
+  }
+  /* menu */
+  .menu-head {
+    margin-top: 40px;
+  }
+
+  /* Cabang */
+  .cabang-head {
+    margin-top: 40px;
   }
 }
 
@@ -546,6 +561,20 @@ footer {
     font-size: 20px;
     text-align: center;
     text-shadow: 8px 2px 15px rgba(0, 0, 0, 0.4);
+    margin-top: 25px;
+  }
+  
+  .maps {
+    margin-top: 40px;
+  }
+
+  /* menu */
+  .menu-head {
+    margin-top: 25px;
+  }
+
+  /* Cabang */
+  .cabang-head {
     margin-top: 25px;
   }
 }
@@ -619,7 +648,7 @@ footer {
 
   /* menu */
   .menu-head {
-    margin-top: 30px;
+    margin-top: 25px;
   }
   .menu-item img {
     max-width: 100%;
@@ -631,6 +660,6 @@ footer {
   }
   /* Cabang */
   .cabang-head {
-    margin-top: 30px;
+    margin-top: 25px;
   }
 }
